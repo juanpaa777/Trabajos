@@ -1,0 +1,63 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class BuildGradleTest {
+
+  @Test
+  void testJpaDependency() {
+    String expected = "org.springframework.boot:spring-boot-starter-data-jpa";
+    String actual = dependencies.getJpaDependency();
+    assertEquals(expected, actual); 
+  }
+
+  @Test
+  void testThymeleafDependency() {
+     String expected = "org.springframework.boot:spring-boot-starter-thymeleaf";
+     String actual = dependencies.getThymeleafDependency();
+     assertEquals(expected, actual);
+  }
+
+  @Test
+  void testValidationDependency() {
+    String expected = "org.springframework.boot:spring-boot-starter-validation";
+    String actual = dependencies.getValidationDependency();
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  void testWebDependency() {
+    String expected = "org.springframework.boot:spring-boot-starter-web";
+    String actual = dependencies.getWebDependency();
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  void testSqliteDependency() {
+    String expected = "org.xerial:sqlite-jdbc:3.45.2.0";
+    String actual = dependencies.getSqliteDependency();
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  void testHibernateDialectDependency() {
+    String expected = "org.hibernate-community-dialects:6.2.24.Final";
+    String actual = dependencies.getHibernateDialectDependency();
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  void testDevToolsDependency() {
+    String expected = "org.springframework.boot:spring-boot-devtools";
+    String actual = dependencies.getDevToolsDependency();
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  void testTestImplementationDependency() {
+    String expected = "org.springframework.boot:spring-boot-starter-test";
+    String actual = dependencies.getTestImplementationDependency();
+    assertEquals(expected, actual);
+  }
+
+}

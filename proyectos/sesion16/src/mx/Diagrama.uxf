@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>180</x><y>100</y><w>270</w><h>160</h></coordinates><panel_attributes>ArchivoTest
+--
++main(String{})void 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>180</x><y>320</y><w>250</w><h>180</h></coordinates><panel_attributes>C:/temp/cursos/
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>230</x><y>380</y><w>140</w><h>70</h></coordinates><panel_attributes>cusos:txt</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>230</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;110;20;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>460</x><y>40</y><w>110</w><h>120</h></coordinates><panel_attributes>black
+bg=black
+fg=white</panel_attributes><additional_attributes></additional_attributes></element></diagram>

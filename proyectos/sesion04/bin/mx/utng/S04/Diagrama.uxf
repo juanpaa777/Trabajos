@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>81</x><y>126</y><w>288</w><h>117</h></coordinates><panel_attributes>bg=black
+fg=white
+Lector
+--
+-scanner:Scanner
+--
++muestraMensaje(mensaje:String):void
+
+_+main(args[]:String):void_
+
++ leerEntrada():String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>315</y><w>441</w><h>252</h></coordinates><panel_attributes>ContadorCaracteres
+--
+--
++isVocal(caracter.char):boolean
+
++isNumero(caracter.char):boolean
+
++isConsonante(caracter.char):boolean
+
++isSimbolo(caracter.char):boolean
+
++cuentaVocales(palabra.String):int
+
++cuentaConsonantes(palabra.String):int
+
++cuentaNumeros(palabra.String):int
+
++cuentaSimboloss(palabra.String):int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>135</y><w>153</w><h>72</h></coordinates><panel_attributes>Letras
+--
+--
+_+main(args[]:String):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>162</y><w>162</w><h>27</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>198</y><w>72</w><h>135</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;130;60;10</additional_attributes></element></diagram>

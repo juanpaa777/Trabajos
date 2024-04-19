@@ -1,0 +1,28 @@
+plugins{
+    id 'java'
+
+}
+task mundo {
+    doLast {
+        println("World!")
+    }
+}
+ jar{
+            manifest{
+                attributes 'Main-Class':'mx/utng/sesion19.IntegerToBinary'
+            }
+        }
+task hello {
+    doLast {
+        for(int i = 0; i < 10; i++) {
+             println 'Hello world!'
+
+        }
+       
+    def int a=10
+    def int b=3
+    println(a*b)
+    
+    }
+}
+

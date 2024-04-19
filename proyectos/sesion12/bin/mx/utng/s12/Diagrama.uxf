@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>110</y><w>300</w><h>250</h></coordinates><panel_attributes>Equipo
+--
+-nombre:String
+-ciudad:String
+-puntos:int
+--
+&lt;&lt;constructor&gt;&gt;
+&lt;&lt;constructor&gt;&gt;+ equipo(String.string)
+&lt;&lt;constructor&gt;&gt;+Equipo(String)
++actualizacion(string).int)
++actualiza(String)
++actualiza(string)
++acturaliza(int)
++getNombre():string
++getCiudad():string
++getPuntos():int
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>470</y><w>210</w><h>100</h></coordinates><panel_attributes>Sobrecarga
+--
+
+--
++main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>350</y><w>50</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+usa</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element></diagram>

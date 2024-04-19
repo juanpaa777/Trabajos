@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLInterface</id><coordinates><x>370</x><y>130</y><w>100</w><h>100</h></coordinates><panel_attributes>Herviboro
+--
++comer():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>40</y><w>260</w><h>120</h></coordinates><panel_attributes>/Animal/
+--
+-especie:String
+-genero:String
+-edad:int
+--
++respirar():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>200</y><w>120</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>100;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>320</y><w>170</w><h>80</h></coordinates><panel_attributes>Venado
+--
+-tieneCuernos:bololean
+--
++comer():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>120</y><w>170</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>470</y><w>170</w><h>90</h></coordinates><panel_attributes>Polimorfismo
+--=main(String[]):voi
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>110</y><w>80</w><h>380</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;60;360</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>380</y><w>120</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>100;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>190</y><w>250</w><h>330</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>210;10;230;300;10;310</additional_attributes></element></diagram>
